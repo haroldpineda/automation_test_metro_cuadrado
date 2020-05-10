@@ -19,7 +19,6 @@ module Pages
         element :option_two_twenty_years, :xpath, '/html/body/div[3]/div[2]/div/div/div[2]/div[1]/form/div[2]/select/option[4]'
         element :eyelash_quota_value, '.opcion_cuotas'
 
-
         def set_data_in_form_loan_amount(salary, years)
           textbox_monthlyincome.set salary
           checkbox_years.click
