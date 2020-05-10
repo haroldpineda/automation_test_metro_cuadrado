@@ -3,45 +3,61 @@ value_money_to_lend_5_years:
   lend_up:  "$ 113,487,528"
   minimum_initial_fee: "$ 48,637,512"
   buy_property: "$ 162,125,039"
+  estimate_value_fee: "$ 2,400,000"
+  interest_rate: "10.25%"
 
 value_money_to_lend_10_years:
   monthly_income: "$ 5,000,000"
   lend_up:  "$ 114,474,391"
   minimum_initial_fee: "$ 49,060,453"
   buy_property: "$ 163,534,844"
+  estimate_value_fee: "$ 1,500,000"
+  interest_rate: "10.25%"
 
 value_money_to_lend_15_years:
   monthly_income: "$ 2,000,000"
   lend_up:  "$ 56,482,820"
   minimum_initial_fee: "$ 24,206,923"
   buy_property: "$ 80,689,743"
+  estimate_value_fee: "$ 600,000"
+  interest_rate: "10.25%"
 
 value_money_to_lend_20_years:
   monthly_income: "$ 1,000,000"
   lend_up:  "$ 31,523,717"
   minimum_initial_fee: "$ 13,510,164"
   buy_property: "$ 45,033,881"
+  estimate_value_fee: "$ 300,000"
+  interest_rate: "10.25%"
 
 value_quote_to_lend_5_years:
   get_credit: "$ 70,000,000"
   monthly_income:  "$ 4,934,463"
   mount_minimum_initial_fee: "$ 30,000,000"
   buy_property_from: "$ 100,000,000"
+  monthly_fee_value: "$ 1,480,339"
+  estimated_loan_value: "$ 69,329,041"
 
 value_quote_to_lend_10_years:
   get_credit: "$ 90,000,000"
   monthly_income:  "$ 3,931,010"
   mount_minimum_initial_fee: "$ 38,571,429"
   buy_property_from: "$ 128,571,429"
+  monthly_fee_value: "$ 1,179,303"
+  estimated_loan_value: "$ 88,438,882"
 
 value_quote_to_lend_15_years:
   get_credit: "$ 120,000,000"
   monthly_income:  "$ 4,249,080"
   mount_minimum_initial_fee: "$ 51,428,571"
   buy_property_from: "$ 171,428,571"
+  monthly_fee_value: "$ 1,274,724"
+  estimated_loan_value: "$ 117,168,970"
 
 value_quote_to_lend_20_years:
   get_credit: "$ 200,000,000"
   monthly_income:  "$ 6,344,430"
   mount_minimum_initial_fee: "$ 85,714,286"
   buy_property_from: "$ 285,714,286"
+  monthly_fee_value: "$ 1,903,329"
+  estimated_loan_value: "$ 194,299,481"
