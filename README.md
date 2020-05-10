@@ -38,6 +38,12 @@ Expecification tag @happy_flow  @alltestcases or @exceptions
 Expecification browser : chrome or firefox
 
             $ cucumber --tags @alltestcases BROWSER=chrome
+
+Expecification report generate (if you want a report :) ):
+
+            $ cucumber --tags @alltestcases  BROWSER=firefox -f pretty -f html -o report_execution.html
+
+Note: The report will be in the root folder of the project "automation_test_metro_cuadrado" with the name of 'report_execution.html'
 ```
 ```
 Feature: Happy user flows in metrocuadrado.com
@@ -58,11 +64,8 @@ Examples:
 
 ## Built With
 
-* [Ruby] [Cucumber] [Capybara] [Siteprism] [Selenium] [Geckodriver] [Chromedriver] 
+* [Ruby] [Cucumber] [Capybara] [Siteprism] [Selenium] [Geckodriver] [Chromedriver]
 
 ## Author
 
 * **Harold Pineda Valiente ** - *Initial work* - [haroldpineda](https://github.com/haroldpineda)
-
-
-
