@@ -1,5 +1,4 @@
-@happy_flow
-
+@happy_flow @alltestcases
 Feature: Happy user flows in metrocuadrado.com
 
 Background:

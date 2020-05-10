@@ -18,3 +18,8 @@ Then('I want to see the information on {string} and validate the values {string}
     @frame_results.value_installments(data_result)
   end
 end
+
+Then('You will see the exception of {string}') do |type_operation|
+ @frame_object = Pages::Calculator_frame::Frameobjects.new
+ @frame_object.set_exception_in_textbox(type_operation)
+end
